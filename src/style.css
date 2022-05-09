@@ -1,0 +1,88 @@
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: rgb(235, 235, 235);
+}
+
+.main-container {
+  width: 1080px;
+  margin: auto;
+}
+
+.message {
+  width: 864px;
+  margin: 10px auto;
+}
+
+#keyboard {
+  width: 864px;
+  height: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px 5px;
+  padding: 10px;
+  margin: 20px auto;
+  background-color: antiquewhite;
+  border: 3px solid rgb(160, 155, 148);
+  border-radius: 2px;
+}
+
+.key {
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 3px 3px rgb(221, 212, 212);
+  transition: all 0.05s;
+  font-size: 16px;
+}
+.key:active, .key.active {
+  margin: 3px -3px -3px 3px;
+  box-shadow: 0px 0px;
+  background-color: rgb(209, 209, 209);
+}
+
+.non-shift {
+  display: block;
+  color: rgb(145, 145, 145);
+}
+
+.space {
+  width: 305.5px;
+  font-size: 0;
+}
+
+.backspace,
+.caps-lock,
+.shift:nth-child(43) {
+  width: 120px;
+}
+
+.enter,
+.shift:nth-child(55) {
+  width: 105px;
+}
+
+.ctrl {
+  width: 67.5px;
+}
+
+.tab,
+.del {
+  width: 57.5px;
+}
+
+.win {
+  background: url("./icons/windows-svgrepo-com.svg") no-repeat center white;
+  background-size: 20px 20px;
+  font-size: 0;
+}
+
+#textarea {
+  width: 864px;
+  height: 300px;
+  display: block;
+  padding: 7px;
+  margin: auto;
+}
+
+/*# sourceMappingURL=style.css.map */

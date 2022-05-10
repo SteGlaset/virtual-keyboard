@@ -8,7 +8,7 @@ keyboard.setAttribute('id', 'keyboard');
 textarea.setAttribute('id', 'textarea');
 textarea.toggleAttribute('autofocus');
 layoutMessage.classList.add('message');
-layoutMessage.innerText = 'Press Shift + Alt on physical keyboard to change layout';
+layoutMessage.innerText = 'Made on Windows. Press Shift + Alt on physical keyboard to change layout';
 
 // Textarea always on focus
 textarea.onblur = () => {
